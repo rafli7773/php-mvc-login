@@ -22,8 +22,10 @@
                         <input id="password2" type="password" class="validate" name="password2" minlength="5">
                         <label for="password2">Konfirmasi Password</label>
                     </div>
-                    <div class="input-field col s12 m12">
+                    <div class="input-field col s6 m6">
                         <button class="btn" type="submit">Registrasi</button>
+                    </div>
+                    <div class="input-field col s12 m6">
                         <a class="right" href="<?= BASEURL; ?>/login">Sudah Punya Akun? Login</a>
                     </div>
                 </form>

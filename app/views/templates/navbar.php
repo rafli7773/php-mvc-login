@@ -20,6 +20,6 @@
         <li><a href="<?= BASEURL; ?>/member" class="<?php if (isset($data['member'])) echo 'blue white-text' ?>">Member</a></li>
         <li><a href="collapsible.html">Mobil</a></li>
         <li><a href="mobile.html">Transaksi</a></li>
-        <li><a href="<?= BASEURL ;?>/dashboard/logout">Logout</a></li>
+        <li><a href="<?= BASEURL; ?>/dashboard/logout" class="modal-trigger" data-target="logout">Logout</a></li>
     </ul>
 </header>

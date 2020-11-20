@@ -15,8 +15,10 @@
                         <label for="password">Password</label>
                         <?php Flasher::validasiPassword(); ?>
                     </div>
-                    <div class="input-field col s12 m12">
+                    <div class="input-field col s12 m6">
                         <button class="btn" type="submit">Login</button>
+                    </div>
+                    <div class="input-field col s12 m6">
                         <a class="right" href="<?= BASEURL; ?>/registrasi">Tidak Punya Akun? Registrasi</a>
                     </div>
                 </form>
