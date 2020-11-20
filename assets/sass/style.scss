@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+.app-gua {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-gua {
+    display: flex;
+    width: 50%;
+    min-height: 80vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-gua {
+    width: 100%;
+}
+
+.footer-gua {
+    margin-bottom: 20px;
+}
